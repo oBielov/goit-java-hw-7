@@ -1,6 +1,6 @@
 package figures;
 
-abstract class VolumePolygon implements HasVolume, HasArea, Shape{
+abstract class VolumePolygon implements HasVolume, HasArea{
     private double sideA;
     private double sideB;
     private double sideC;

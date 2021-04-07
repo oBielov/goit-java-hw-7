@@ -1,7 +1,7 @@
 package figures;
 import java.lang.Math;
 
-abstract class ClosedCurves implements HasRadius, HasArea, Shape {
+abstract class ClosedCurves implements HasRadius, HasArea{
     private double radius;
 
     public ClosedCurves (double radius){

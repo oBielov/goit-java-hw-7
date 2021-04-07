@@ -1,7 +1,7 @@
 package figures;
 import java.lang.Math;
 
-abstract class Sphericals implements HasRadius, HasVolume, HasArea, Shape {
+abstract class Sphericals implements HasRadius, HasVolume, HasArea{
 
     private double radius;
 

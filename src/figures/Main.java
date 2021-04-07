@@ -15,14 +15,14 @@ public class Main {
 
     public static void area(HasArea ... shapes) {
         for (HasArea shape : shapes){
-            System.out.println(shape.shapeName() + "area: ");
+            System.out.println(shape.shapeName() + " area: ");
             System.out.println(shape.area());
         }
     }
 
     public static void perimeter(HasPerimeter ... shapes) {
         for (HasPerimeter shape : shapes){
-            System.out.println(shape.shapeName() + "perimeter: ");
+            System.out.println(shape.shapeName() + " perimeter: ");
             System.out.println(shape.perimeter());
         }
     }

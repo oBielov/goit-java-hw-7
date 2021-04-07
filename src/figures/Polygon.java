@@ -1,6 +1,6 @@
 package figures;
 
-abstract class Polygon implements HasArea, HasPerimeter, Shape{
+abstract class Polygon implements HasArea, HasPerimeter{
     private double sideA;
     private double sideB;
 
