@@ -10,7 +10,8 @@ public class Main {
 
         HasArea[] shapes = {square1, triangle1, circle1, cubical1, sphere1};
 
-        area(shapes);
+        NameGetter getName = new NameGetter();
+        getName.name(circle1);
     }
 
     public static void area(HasArea ... shapes) {
@@ -26,5 +27,5 @@ public class Main {
             System.out.println(shape.perimeter());
         }
     }
-
+    
 }

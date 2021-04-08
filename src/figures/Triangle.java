@@ -2,7 +2,9 @@ package figures;
 import java.lang.Math;
 
 public class Triangle extends Polygon{
+
     private double sideC;
+    private final String name = "Triangle";
 
     public Triangle(double sideA, double sideB, double sideC) {
         super(sideA, sideB);
@@ -31,6 +33,6 @@ public class Triangle extends Polygon{
 
     @Override
     public String shapeName() {
-        return "Triangle";
+        return name;
     }
 }
