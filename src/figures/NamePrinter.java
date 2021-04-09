@@ -1,6 +1,6 @@
 package figures;
 
-public class NameGetter {
+public class NamePrinter {
 
     /**
     * Gets any Shape instance/instances and prints its name

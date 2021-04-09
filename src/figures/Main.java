@@ -10,7 +10,7 @@ public class Main {
 
         HasArea[] shapes = {square1, triangle1, circle1, cubical1, sphere1};
 
-        NameGetter getName = new NameGetter();
+        NamePrinter getName = new NamePrinter();
         getName.name(circle1);
     }
 
